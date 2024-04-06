@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import pxToRem from "@/core/methods/pxToRem"
 
-import bg from '../../public/424531.webp';
+import bg from '../../public/encyclopedia-bg.webp';
 
 export const Container = styled.div`
   background-image: url(${bg.src});
