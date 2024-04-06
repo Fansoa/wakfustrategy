@@ -7,7 +7,7 @@ const EncyclopediaLayout = ({children}) => {
     <Container>
         {children}
       <Copyright>
-        WAKFU MMORPG : © 2024 Ankama Studio. Tous droits réservés. "WakfuStrategy" et ses services dérivés sont des sites non-officiels sans aucun lien avec Ankama.
+        WAKFU MMORPG : © 2024 Ankama Studio. Tous droits réservés. &quot;WakfuStrategy&quot; et ses services dérivés sont des sites non-officiels sans aucun lien avec Ankama.
       </Copyright>
     </Container>
   )
