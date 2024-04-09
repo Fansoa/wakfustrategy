@@ -2,7 +2,7 @@
 
 import Banner from "@/components/Banner";
 import Menu from "@/components/Menu";
-import Sprite from '../../public/sprite.png'
+import Sprite from '../../public/sprite.webp'
 
 import { MenuContainer, BannerContainer } from "./styled";
 
@@ -22,8 +22,7 @@ const data = [
     href: '/bestiary',
     img: Sprite,
     style: {
-      objectFit: 'none',
-      objectPosition: '16px -415px'
+      transform: 'scale(0.7)'
     }
   },
 ]
