@@ -1,10 +1,15 @@
+import dominant from '../../public/blop-dominant.png'
+import dylan from '../../public/blop-dylan.png'
+import trompettiste from '../../public/blop-trompettiste.png'
+import tambourrin from '../../public/blop-tambourrin.png'
+
 const monsters = [
   {
     name: 'blop dominant',
     slug: 'blop-dominant',
     family: 'blops musicaux',
     familySlug: 'blops-musicaux',
-    img: 'https://static.ankama.com/wakfu/portal/game/monster/200/118800992.w200h.png',
+    img: dominant.src,
     pa: 6,
     pm: 3,
     pw: 6,
@@ -45,7 +50,7 @@ const monsters = [
     slug: 'blop-dylan',
     family: 'blops musicaux',
     familySlug: 'blops-musicaux',
-    img: 'https://static.ankama.com/wakfu/portal/game/monster/200/195604778.w200h.png',
+    img: dylan.src,
     pa: 6,
     pm: 3,
     pw: 6,
@@ -86,7 +91,7 @@ const monsters = [
     slug: 'blop-trompettiste',
     family: 'blops musicaux',
     familySlug: 'blops-musicaux',
-    img: 'https://static.ankama.com/wakfu/portal/game/monster/200/195604777.w200h.png',
+    img: trompettiste.src,
     pa: 12,
     pm: 5,
     pw: 0,
@@ -127,7 +132,7 @@ const monsters = [
     slug: 'blop-tambourrin',
     family: 'blops musicaux',
     familySlug: 'blops-musicaux',
-    img: 'https://static.ankama.com/wakfu/portal/game/monster/200/195604779.w200h.png',
+    img: tambourrin.src,
     pa: 6,
     pm: 3,
     pw: 6,
