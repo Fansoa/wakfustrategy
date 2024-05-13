@@ -19,7 +19,7 @@ const pathsList = [
 const data = [
   {
     name: 'bestiaire',
-    href: '/bestiary',
+    href: 'bestiary',
     img: Sprite,
     style: {
       transform: 'scale(0.7)'
